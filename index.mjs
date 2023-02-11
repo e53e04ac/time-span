@@ -170,7 +170,7 @@ const constructor = ((options) => {
 /** @type {import('.').TimeSpan.Companion} */
 const companion = ({});
 
-/** @type {import('.').TimeSpan.Companion} */
+/** @type {import('.').TimeSpan.ConstructorWithCompanion} */
 const constructorWithCompanion = Object.assign(constructor, companion);
 
 export { constructorWithCompanion as TimeSpan };
